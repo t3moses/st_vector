@@ -1,0 +1,25 @@
+# -----------------------------------------
+# Syntax colouring
+# -----------------------------------------
+
+# Datatypes (such as objects)
+st_vector	KEYWORD1
+vector_t	KEYWORD1
+
+#Methods / functions
+aw_from_real	KEYWORD2
+rw_from_apparent	KEYWORD2
+
+# Constants
+
+RADIANS_FROM_DEGREES	KEYWORD3
+DEGREES_FROM_RADIANS	KEYWORD3
+LEEWAY_MAX	KEYWORD3
+A	KEYWORD3
+B	KEYWORD3
+C	KEYWORD3
+D	KEYWORD3
+E	KEYWORD3
+F	KEYWORD3
+G	KEYWORD3
+H	KEYWORD3

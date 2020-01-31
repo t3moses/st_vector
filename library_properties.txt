@@ -1,0 +1,10 @@
+name=st_vector
+version=1.0.0
+author=TimMoses
+maintainer=TimMoses
+sentence=Convert between real and apparent parameters on Arduino.
+paragraph=
+category=Communication
+url=https://github.com/t3moses/st_vector
+architectures=ave
+includes=st_vector.h
