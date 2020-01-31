@@ -2,14 +2,16 @@ This Seatalk library converts between real and apparent wind strength and direct
 
 The library exposes two functions;
 
-vector_t aw_from_real(vector_t rw, vector_t vow);
-vector_t rw_from_apparent(vector_t aw, vector_t vow);
+vector_t aw_from_real(vector_t rw, vector_t vow)
+
+vector_t rw_from_apparent(vector_t aw, vector_t vow)
 
 and one type:
 
 struct vector_t {
   
   double v1; // Strength
+  
   double v2; // Upwind angle clockwise from magnetic north (in the case of rw and vow) and from the bow (in the case of aw).
   
 };
