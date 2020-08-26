@@ -16,6 +16,6 @@ struct vector_t {
   
 };
 
-The functions take leeway into account, using estimation and polynomial regression.
+The functions take leeway into account, using an heuristic approach.
 
 The library has only been tested on an Arduino Uno R3 with a 16 MHz system clock.
